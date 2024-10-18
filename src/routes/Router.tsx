@@ -8,6 +8,7 @@ const AppRoutes: React.FC = () => {
       <Routes>
         {/* <Route path="/" element={isAuthenticated ? <Navigate to="/home" replace /> : <Login />} /> */}
         <Route path="/home" element={<Navigate to="/home" replace />} />{" "}
+        <Route path="/page-2" element={<Navigate to="/page-2" replace />} />{" "}
       </Routes>
     </BrowserRouter>
   );
